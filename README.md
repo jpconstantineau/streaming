@@ -1,2 +1,0 @@
-[] Refactor USB
-[] Refactor BLE
