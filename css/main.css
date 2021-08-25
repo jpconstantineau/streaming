@@ -56,6 +56,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+   }
    label {
     display: block;
     padding-left: 15px;
