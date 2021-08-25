@@ -1,1 +1,2 @@
-"# streaming" 
+[] Refactor USB
+[] Refactor BLE
