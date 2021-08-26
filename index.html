@@ -42,5 +42,22 @@
           </label>
 
         <script src="js/main.js"></script>
+
+
+        <div id="id01"></div>
+
+        <script>
+        function myFunction(arr) {
+            var out = "";
+            var i;
+            for(i = 0; i<arr.length; i++) {
+                out += ' <label class="container"> <input type="checkbox" checked="' + arr[i].status + '">' + arr[i].display + '</label>';
+            }
+            document.getElementById("id01").innerHTML = out;
+        }
+        </script>
+        
+        <script src="data.js"></script>
+
     </body>
 </html>
