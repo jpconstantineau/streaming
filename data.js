@@ -13,7 +13,7 @@ ShowToDo([
         },
     {
     "display": "Take BLE HID Example",
-    "status": ""
+    "status": "checked"
     },
     {
     "display": "Refactor BLE",
