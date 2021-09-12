@@ -17,7 +17,7 @@ ShowToDo([
     },
     {
     "display": "Refactor BLE",
-    "status": ""
+    "status": "checked"
     },
     {
     "display": "Merge USB and BLE",
