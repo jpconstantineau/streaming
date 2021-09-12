@@ -1,14 +1,50 @@
 myFunction([
     {
-    "display": "JavaScript Tutorial",
+    "display": "Take USB HID Example",
     "status": "checked"
     },
     {
-    "display": "HTML Tutorial",
+    "display": "Refactor USB",
+    "status": "checked"
+    },
+    {
+        "display": "Update BSP",
+        "status": ""
+        },
+    {
+    "display": "Take BLE HID Example",
     "status": ""
     },
     {
-    "display": "CSS Tutorial",
+    "display": "Refactor BLE",
+    "status": ""
+    },
+    {
+    "display": "Merge USB and BLE",
+    "status": ""
+    },
+    {
+    "display": "Setup Manual Switch",
+    "status": ""
+    },
+    {
+    "display": "Setup Auto Switch",
+    "status": ""
+    },
+    {
+    "display": 'Wrap-up into a "Library"',
+    "status": ""
+    },
+    {
+    "display": "Merge into BlueMicro_BLE",
     "status": ""
     }
     ]);
+
+ 
+
+
+
+
+
+ 

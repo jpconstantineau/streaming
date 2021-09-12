@@ -13,33 +13,8 @@
     </head>
     <body>
   <h4>To Do:</h4>
-        <label class="container">
-            <input type="checkbox" checked="checked"> Take USB HID Example
-          </label>     
-        <label class="container">
-            <input type="checkbox" checked="checked"> Refactor USB
-          </label>
-          <label class="container">
-            <input type="checkbox" > Take BLE HID Example
-          </label>
-          <label class="container">
-            <input type="checkbox" > Refactor BLE
-          </label>
-          <label class="container">
-            <input type="checkbox" > Merge USB and BLE
-          </label>
-          <label class="container">
-            <input type="checkbox" > Setup Manual Switch
-          </label>
-          <label class="container">
-            <input type="checkbox" > Setup Auto Switch
-          </label>
-          <label class="container">
-            <input type="checkbox" > Wrap-up into a "Library"
-          </label>
-          <label class="container">
-            <input type="checkbox" > Merge into BlueMicro_BLE
-          </label>
+
+
 
         <script src="js/main.js"></script>
 
@@ -51,7 +26,13 @@
             var out = "";
             var i;
             for(i = 0; i<arr.length; i++) {
-                out += ' <label class="container"> <input type="checkbox" checked="' + arr[i].status + '">' + arr[i].display + '</label>';
+              if(arr[i].status === "checked")
+              {out += ' <label class="container"> <input type="checkbox" checked="' + arr[i].status + '">' + arr[i].display + '</label>';}
+              else
+              {
+                out += ' <label class="container"> <input type="checkbox">' + arr[i].display + '</label>';
+              }
+                
             }
             document.getElementById("id01").innerHTML = out;
         }
