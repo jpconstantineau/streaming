@@ -9,7 +9,7 @@ ShowToDo([
     },
     {
         "display": "Update BSP",
-        "status": ""
+        "status": "checked"
         },
     {
     "display": "Take BLE HID Example",
