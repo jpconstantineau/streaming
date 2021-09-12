@@ -12,33 +12,9 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-  <h4>To Do:</h4>
-
-
-
-        <script src="js/main.js"></script>
-
-
-        <div id="id01"></div>
-
-        <script>
-        function myFunction(arr) {
-            var out = "";
-            var i;
-            for(i = 0; i<arr.length; i++) {
-              if(arr[i].status === "checked")
-              {out += ' <label class="container"> <input type="checkbox" checked="' + arr[i].status + '">' + arr[i].display + '</label>';}
-              else
-              {
-                out += ' <label class="container"> <input type="checkbox">' + arr[i].display + '</label>';
-              }
-                
-            }
-            document.getElementById("id01").innerHTML = out;
-        }
-        </script>
-        
+        <h4>To Do:</h4>
+        <div id="ToDoList"></div>
+        <script src="js/main.js"></script>       
         <script src="data.js"></script>
-
     </body>
 </html>
