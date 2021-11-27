@@ -21,8 +21,12 @@ ShowToDo([
     },
     {
     "display": "Merge USB and BLE",
-    "status": ""
+    "status": "checked"
     },
+    {
+        "display": "Update nRF52 BSP to 1.2.0",
+        "status": ""
+        },
     {
     "display": "Setup Manual Switch",
     "status": ""
