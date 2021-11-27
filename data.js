@@ -25,7 +25,7 @@ ShowToDo([
     },
     {
         "display": "Update nRF52 BSP to 1.2.0",
-        "status": ""
+        "status": "checked"
         },
     {
     "display": "Setup Manual Switch",
